@@ -1,0 +1,10 @@
+{
+  "name": "chrome-extension-angular-template",
+  "description": "Simple chrome extension write in angular",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "dist/index.html"
+  },
+  "options_page": "dist/index.html#/options"
+}
