@@ -6,5 +6,11 @@
   "action": {
     "default_popup": "dist/index.html"
   },
-  "options_page": "dist/index.html#/options"
+  "options_page": "dist/index.html#/options",
+  "content_scripts": [
+    {
+      "matches": ["http://localhost/*"],
+      "js": ["dist-chrome/contents/localhost.js"]
+    }
+  ]
 }
