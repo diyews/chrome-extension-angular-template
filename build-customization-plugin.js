@@ -1,14 +1,8 @@
-const { mergeWithCustomize, customizeObject } = require('webpack-merge');
+const { merge } = require('webpack-merge');
 
 exports.default = {
   config: function (cfg) {
-    const strategy = mergeWithCustomize({
-      customizeObject: customizeObject({
-        devtool: 'replace',
-      })
-    });
-
-    return strategy(cfg, {
+    return merge(cfg, {
       devtool: 'inline-source-map'
     });
   }
