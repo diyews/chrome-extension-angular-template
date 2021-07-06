@@ -17,5 +17,8 @@
       "matches": ["http://localhost/*"],
       "js": ["dist-chrome/contents/localhost.js"]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
 }
