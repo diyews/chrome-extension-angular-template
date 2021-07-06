@@ -2,7 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist-chrome",
-    "types": []
+    "types": ["chrome"]
   },
   "include": [
     "chrome/**/*.ts"
