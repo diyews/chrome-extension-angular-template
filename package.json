@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --plugin ~build-customization-plugin.js",
+    "build": "ng build",
     "watch:build": "npm run build -- --watch",
     "test": "ng test",
     "lint": "ng lint",
